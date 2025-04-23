@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+//import Spline from "@splinetool/react-spline/next";
 
 const HeroSection = () => {
   return (
@@ -13,7 +14,9 @@ const HeroSection = () => {
           Lets connect,collaborate and create!
         </p>
         <div className="mt-4">
-          <Link href={"/courses"}>Explore</Link>
+          <button className="bg-blue-500 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded">
+            <Link href={"/networkinghub"}>Explore</Link>
+          </button>
         </div>
       </div>
     </div>

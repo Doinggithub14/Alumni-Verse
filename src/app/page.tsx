@@ -6,17 +6,17 @@ export default function Home() {
     {
       name: "Aditi Sharma",
       job: "Software Engineer at Google",
-      image: "/aditi.jpg",
+      image: "/profilepic1.jpg",
     },
     {
       name: "Rahul Mehta",
       job: "Founder at Tech Startup",
-      image: "/rahul.jpg",
+      image: "/profilepic1.jpg",
     },
     {
       name: "Neha Kapoor",
       job: "Product Manager at Microsoft",
-      image: "/neha.jpg",
+      image: "/profilepic1.jpg",
     },
   ];
 

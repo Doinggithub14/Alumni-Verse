@@ -1,0 +1,124 @@
+{
+  "alumni": [
+    {
+      "id": 1,
+      "name": "Rahul Sharma",
+      "batch": "2012",
+      "degree": "Computer Science",
+      "currentPosition": "Software Engineer",
+      "company": "Google",
+      "location": "San Francisco, USA",
+      "email": "rahul.sharma@example.com",
+      "image": "/alumni/rahul.jpg",
+      "isFeatured": true
+    },
+    {
+      "id": 2,
+      "name": "Aisha Khan",
+      "batch": "2015",
+      "degree": "Business Administration",
+      "currentPosition": "Marketing Manager",
+      "company": "Amazon",
+      "location": "London, UK",
+      "email": "aisha.khan@example.com",
+      "image": "/alumni/aisha.jpg",
+      "isFeatured": false
+    },
+    {
+      "id": 3,
+      "name": "Vikram Patel",
+      "batch": "2010",
+      "degree": "Electrical Engineering",
+      "currentPosition": "Project Lead",
+      "company": "Tesla",
+      "location": "Austin, USA",
+      "email": "vikram.patel@example.com",
+      "image": "/alumni/vikram.jpg",
+      "isFeatured": true
+    },
+    {
+      "id": 4,
+      "name": "Neha Mehta",
+      "batch": "2018",
+      "degree": "Biomedical Sciences",
+      "currentPosition": "Research Scientist",
+      "company": "Pfizer",
+      "location": "New York, USA",
+      "email": "neha.mehta@example.com",
+      "image": "/alumni/neha.jpg",
+      "isFeatured": false
+    },
+    {
+      "id": 5,
+      "name": "Rohan Verma",
+      "batch": "2011",
+      "degree": "Finance",
+      "currentPosition": "Investment Banker",
+      "company": "Goldman Sachs",
+      "location": "Mumbai, India",
+      "email": "rohan.verma@example.com",
+      "image": "/alumni/rohan.jpg",
+      "isFeatured": false
+    },
+    {
+      "id": 6,
+      "name": "Sara Kapoor",
+      "batch": "2013",
+      "degree": "Journalism",
+      "currentPosition": "News Anchor",
+      "company": "BBC",
+      "location": "London, UK",
+      "email": "sara.kapoor@example.com",
+      "image": "/alumni/sara.jpg",
+      "isFeatured": true
+    },
+    {
+      "id": 7,
+      "name": "Amit Tandon",
+      "batch": "2009",
+      "degree": "Mechanical Engineering",
+      "currentPosition": "Senior Engineer",
+      "company": "BMW",
+      "location": "Berlin, Germany",
+      "email": "amit.tandon@example.com",
+      "image": "/alumni/amit.jpg",
+      "isFeatured": false
+    },
+    {
+      "id": 8,
+      "name": "Priya Singh",
+      "batch": "2016",
+      "degree": "Law",
+      "currentPosition": "Corporate Lawyer",
+      "company": "Clifford Chance",
+      "location": "Singapore",
+      "email": "priya.singh@example.com",
+      "image": "/alumni/priya.jpg",
+      "isFeatured": true
+    },
+    {
+      "id": 9,
+      "name": "Deepak Nair",
+      "batch": "2008",
+      "degree": "Architecture",
+      "currentPosition": "Chief Architect",
+      "company": "Foster + Partners",
+      "location": "Dubai, UAE",
+      "email": "deepak.nair@example.com",
+      "image": "/alumni/deepak.jpg",
+      "isFeatured": false
+    },
+    {
+      "id": 10,
+      "name": "Ananya Roy",
+      "batch": "2014",
+      "degree": "Fashion Design",
+      "currentPosition": "Creative Director",
+      "company": "Gucci",
+      "location": "Paris, France",
+      "email": "ananya.roy@example.com",
+      "image": "/alumni/ananya.jpg",
+      "isFeatured": true
+    }
+  ]
+}
