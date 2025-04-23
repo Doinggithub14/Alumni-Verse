@@ -1,0 +1,21 @@
+{
+    "stories": [
+      {
+        "id": 1,
+        "name": "Riya Sharma",
+        "title": "From Final Year Project to Funded Startup",
+        "image": "/alumni/neha.jpg",
+        "story": "During her final year, Riya pitched an AI-based plant disease detection tool that is now used in 100+ farms across India. She raised seed funding within 6 months of graduation.",
+        "lesson": "Start small, test your ideas early, and don’t wait for perfect. Start now!"
+      },
+      {
+        "id": 2,
+        "name": "Ankit Mehta",
+        "title": "Turning Coding into a Career at Google",
+        "image": "/alumni/rahul.jpg",
+        "story": "Ankit loved problem-solving during his classes. With consistent practice on LeetCode and mentorship from seniors, he cracked Google’s interview process in his final year.",
+        "lesson": "Consistency is underrated. Practice regularly and seek mentorship actively."
+      }
+    ]
+  }
+  

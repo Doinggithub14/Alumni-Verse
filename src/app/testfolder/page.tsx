@@ -1,8 +1,14 @@
 import FeaturedAlumni from "@/components/FeaturedAlumni";
 import Spline from "@splinetool/react-spline/next";
 import Image from "next/image";
+import AlumniCard from '@/components/AlumniCard';
+import alumniData from "@/data/alumni_info.json";
+import AlumniCarousel from "@/components/AlumniCarousal";
 
 export default function Home() {
+  // Get the first alumni from the data for demonstration
+  const alumni = alumniData.alumni[0];
+
   return (
     <div className="container mx-auto min-h-screen">
       <main>
@@ -12,7 +18,7 @@ export default function Home() {
       {/* <section className="text-center px-6 pt-50 pb-50">
         <p className="mt-6 text-xl text-white max-w-xl mx-auto  text-justify leading-relaxed text-semibold uppercase ">
           Alumni-Verse is a dynamic platform designed to keep alumni connected
-          with their alma mater and each other. Whether it’s networking, job
+          with their alma mater and each other. Whether it's networking, job
           opportunities, mentorship programs, or exclusive events, we ensure
           lifelong engagement. Stay informed, stay connected, and grow together
           with Alumni-Verse.
@@ -57,8 +63,12 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <FeaturedAlumni />
-    </div>
-  );
+      <section className="px-6 py-12">
+  
+  <div >
+  <AlumniCarousel />
+  </div>
+</section>
+</div>
+);
 }

@@ -22,17 +22,16 @@ function Navbar({ className }: { className?: string }) {
       <Menu setActive={setActive}>
         <MenuItem setActive={setActive} active={active} item="AlumniDirectory">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/web-dev">Web Development</HoveredLink>
-            <HoveredLink href="/interface-design">Interface Design</HoveredLink>
-            <HoveredLink href="/seo">Search Engine Optimization</HoveredLink>
-            <HoveredLink href="/branding">Branding</HoveredLink>
+            <HoveredLink href="/alumni-directory">Batch 2024</HoveredLink>
+            <HoveredLink href="/alumni-directory">Batch 2023</HoveredLink>
+          
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Events">
           <div className="  text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
               title="SuccessStories"
-              href="https://algochurn.com"
+              href="/successstories"
               src="https://assets.aceternity.com/demos/algochurn.webp"
               description="Prepare for tech interviews like never before."
             />
@@ -58,10 +57,10 @@ function Navbar({ className }: { className?: string }) {
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Community">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/hobby">Hobby</HoveredLink>
-            <HoveredLink href="/individual">Individual</HoveredLink>
-            <HoveredLink href="/team">Team</HoveredLink>
-            <HoveredLink href="/enterprise">Enterprise</HoveredLink>
+            <HoveredLink href="/networkinghub">Networking Hub</HoveredLink>
+            <HoveredLink href="/collaborationpage">Collaboration Page</HoveredLink>
+            <HoveredLink href="/alumni-feedback">Alumni Feedback</HoveredLink>
+            <HoveredLink href="/alumni-directory">Alumni Directory</HoveredLink>
           </div>
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Login">
