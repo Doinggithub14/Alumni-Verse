@@ -45,7 +45,9 @@ export default function AlumniCarousel() {
             key={alumni.id}
             className="flex-shrink-0 w-[85vw] sm:w-[45vw] md:w-[30vw] scroll-snap-align-start"
           >
-            <AlumniCard {...alumni} />
+            <div className="bg-gray-900 border border-purple-600 rounded-xl p-6 text-white hover:shadow-lg transition duration-300">
+              <AlumniCard {...alumni} />
+            </div>
           </div>
         ))}
       </div>
