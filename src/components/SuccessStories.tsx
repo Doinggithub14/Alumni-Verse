@@ -1,5 +1,5 @@
-import Image from 'next/image';
-import successStoriesData from '@/data/success_stories.json';
+import Image from "next/image";
+import successStoriesData from "@/data/success_stories.json";
 
 export default function SuccessStories() {
   return (
@@ -13,7 +13,7 @@ export default function SuccessStories() {
           <div
             key={story.id}
             className={`flex flex-col md:flex-row items-center ${
-              index % 2 !== 0 ? 'md:flex-row-reverse' : ''
+              index % 2 !== 0 ? "md:flex-row-reverse" : ""
             }`}
           >
             {/* Image */}
@@ -29,8 +29,12 @@ export default function SuccessStories() {
 
             {/* Content */}
             <div className="md:w-1/2 md:px-10 mt-6 md:mt-0">
-              <h3 className="text-2xl font-bold text-purple-500">{story.name}</h3>
-              <p className="text-white mt-2 italic">"{story.title}"</p>
+              <h3 className="text-2xl font-bold text-purple-500">
+                {story.name}
+              </h3>
+              <p className="text-white mt-2 italic">
+                &quot;{story.title}&quot;
+              </p>
               <p className="mt-4 text-white text-justify leading-relaxed">
                 {story.story}
               </p>

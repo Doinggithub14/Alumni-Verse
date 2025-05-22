@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
-import { type } from "os";
-import { formatDiagnostic } from "typescript";
+// import { type } from "os";
+// import { formatDiagnostic } from "typescript";
 
 const userSchema = new mongoose.Schema({
   username: {
